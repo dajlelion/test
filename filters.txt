@@ -66,7 +66,6 @@ google.*##c-wiz[jsrenderer="YnuqN"] > div > div > .Rn1jbe
 google.*##div[data-crl="true"][data-id^="CarouselPLA-"]
 google.*###atvcap > div:has(h3[role="heading"] > span:has-text(/^Ads/))
 
-! https://github.com/uBlockOrigin/uAssets/issues/7761
 google.*##div[data-ismultirow="true"][data-id^="CarouselPLA-"]
 
 google.*##div[data-flt-ve="sponsored_search_ads"]
@@ -74,48 +73,27 @@ google.*##div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"]
 google.*##div[role="navigation"] + c-wiz > div > .kxhcC
 google.*##div[role="navigation"] + c-wiz > script + div > .kxhcC
 
-! https://www.reddit.com/r/uBlockOrigin/comments/8xg7p0/ublock_origin_is_not_blocking_google_sponsored/
 google.*##.ads-ad
-
-! https://github.com/chrisaljoudi/uBlock/issues/381
 google.*###sqh
 
-! https://github.com/uBlockOrigin/uAssets/issues/3482
-!#if !env_mobile
 google.*##a[href*="/aclk?"][data-al]:upward(2)
-!#endif
 
-! https://github.com/NanoMeow/QuickReports/issues/1375#issuecomment-503802350
 www.google.*##div.ellip > span:has-text(/^Ads?$/):upward(2)
-
-! https://github.com/uBlockOrigin/uAssets/issues/9597
 www.google.*##*:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
-! remove "!" once $shide filters by #9642 and #9694 are removed
-!www.google.*##.sh-sr__shop-result-group .sh-sp__btn:matches-css(font-size: 13px):upward(.sh-sr__shop-result-group):has(a[href^="/aclk"][href$="adurl="])
 www.google.*##[href^="https://www.googleadservices.com/pagead/aclk?"][href$="adurl="]:upward(3)
-! `$shide` replacement
-! www.google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/p94hv9/google_maps_booking_dot_com_ad/
 www.google.com##div[data-section-id] > a[href^="/aclk"][href*="placesheetAdFix="][href*="adurl="]:upward(1)
 
-! http://www.wilderssecurity.com/threads/ublock-a-lean-and-fast-blocker.365273/page-25#post-2461804
-! Specific cosmetic filters for Youtube home page
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
-! https://github.com/uBlockOrigin/uAssets/issues/644#issuecomment-324214893
 youtube.com###promotion-shelf
-! https://github.com/uBlockOrigin/uAssets/issues/1408
 *_ad_$media,domain=youtube.com,3p
-! https://redd.it/fg424w
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-! https://github.com/easylist/easylist/issues/5112
 ! @@||youtube.com/get_video_info?*timedtext_editor$xhr,1p
-! https://redd.it/ggcmkp https://redd.it/gx03e0
-!youtube.com,youtube-nocookie.com##+js(json-prune, *.playerResponse.adPlacements *.playerResponse.playerAds [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+
+youtube.com,youtube-nocookie.com##+js(json-prune, *.playerResponse.adPlacements *.playerResponse.playerAds [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-! https://www.reddit.com/r/uBlockOrigin/comments/kg7224/
+
 youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 
 blackspigot.com##+js(aopw, AdBlockDetectorWorkaround)
@@ -127,8 +105,6 @@ youtube-video.download##+js(aopr, open)
 youtube-video.download##.ads
 youtube-video.download##.g-ban
 
-!#if env_mobile
-||m.youtube.com/*/ad.js$script
-!#endif
+m.youtube.com/*/ad.js$script
 
 *$script,3p,denyallow=cloudflare.com|gcdn.co|google.com|gstatic.com|videocdn.name,domain=hog.tv
