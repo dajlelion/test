@@ -78,16 +78,16 @@ youtube.com##[layout*="display-ad-"]
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
 youtube.com##a[href^="https://www.youtube.com/cthru?"]
 m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
-youtube.com##ytd-compact-promoted-video-renderer
-youtube.com##ytd-companion-slot-renderer
-youtube.com##ytd-display-ad-renderer
-youtube.com##ytd-rich-item-renderer
-youtube.com##ytd-promoted-sparkles-text-search-renderer
-youtube.com##ytd-promoted-sparkles-web-renderer
-youtube.com##ytd-single-option-survey-renderer
-youtube.com##ytd-video-masthead-ad-v3-renderer
-youtube.com##ytm-companion-slot
-youtube.com##ytm-promoted-sparkles-text-search-renderer
+m.youtube.com##ytd-compact-promoted-video-renderer
+m.youtube.com##ytd-companion-slot-renderer
+m.youtube.com##ytd-display-ad-renderer
+m.youtube.com##ytd-rich-item-renderer
+m.youtube.com##ytd-promoted-sparkles-text-search-renderer
+m.youtube.com##ytd-promoted-sparkles-web-renderer
+m.youtube.com##ytd-single-option-survey-renderer
+m.youtube.com##ytd-video-masthead-ad-v3-renderer
+m.youtube.com##ytm-companion-slot
+m.youtube.com##ytm-promoted-sparkles-text-search-renderer
 ##.ad-container
 ##.video-ads
 ##.ytp-ad-progress-list
@@ -106,11 +106,11 @@ youtube.com##ytm-promoted-sparkles-text-search-renderer
 doubleclick.net
 googleadservices.com
 googlesyndication.com
-youtube.com##ytd-carousel-ad-renderer
-youtube.com##.iv-promo
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
+m.youtube.com##ytd-carousel-ad-renderer
+m.youtube.com##.iv-promo
+m.youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+m.youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+m.youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 !#if adguard
 youtube.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube-nocookie.com,youtube.com#%#//scriptlet('json-prune', '0.playerResponse.adPlacements 0.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds')
