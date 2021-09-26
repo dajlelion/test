@@ -14,7 +14,6 @@ youtube.com###masthead-ad
 youtube.com###player-ads
 youtube.com###watch-channel-brand-div
 youtube.com###watch7-sidebar-ads
-m.youtube.com##ytm-comment-section-renderer
 *_ad_$media,domain=youtube.com,3p
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer
 youtube.com##ytm-promoted-sparkles-web-renderer
