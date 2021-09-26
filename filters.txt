@@ -1,58 +1,58 @@
-youtube.com##.masthead-ad-control
-youtube.com##.ad-container
-youtube.com##.ad-div
-youtube.com##.pyv-afc-ads-container
-youtube.com##.video-ads
-youtube.com##.ytd-mealbar-promo-renderer
-youtube.com##.sparkles-light-cta
-youtube.com##.html5-video-player
-youtube.com##.ad-showing video
-youtube.com###promotion-shelf
-youtube.com###ad_creative_3
-youtube.com###footer-ads
-youtube.com###masthead-ad
-youtube.com###player-ads
-youtube.com###watch-channel-brand-div
-youtube.com###watch7-sidebar-ads
+m.youtube.com##.masthead-ad-control
+m.youtube.com##.ad-container
+m.youtube.com##.ad-div
+m.youtube.com##.pyv-afc-ads-container
+m.youtube.com##.video-ads
+m.youtube.com##.ytd-mealbar-promo-renderer
+m.youtube.com##.sparkles-light-cta
+m.youtube.com##.html5-video-player
+m.youtube.com##.ad-showing video
+m.youtube.com###promotion-shelf
+m.youtube.com###ad_creative_3
+m.youtube.com###footer-ads
+m.youtube.com###masthead-ad
+m.youtube.com###player-ads
+m.youtube.com###watch-channel-brand-div
+m.youtube.com###watch7-sidebar-ads
 *_ad_$media,domain=youtube.com,3p
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer
-youtube.com##ytm-promoted-sparkles-web-renderer
+m.youtube.com##ytd-video-masthead-ad-advertiser-info-renderer
+m.youtube.com##ytm-promoted-sparkles-web-renderer
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
+m.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+m.youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+m.youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 m.youtube.com/*/ad.js$script
 _reklama_$domain=~youtube.com
 ##.youtubeSuperLeaderBoardAdHolder
 ##.youtubeSuperLeaderOverallAdArea
-youtube.com#@#.overlay-ads
-youtube.com#@#.video-ads
+m.youtube.com#@#.overlay-ads
+m.youtube.com#@#.video-ads
 ||youtube.local^
 ||youtube-video.download/y-vd.php
-||youtube.com/ad_companion
-||youtube.com/pagead/
+||m.youtube.com/ad_companion
+||m.youtube.com/pagead/
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ! temp disabled, affecting some extensions/browsers
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||youtube.com/get_video_info?*adunit$~third-party
-youtube.com###YtKevlarVisibilityIdentifier
-youtube.com###YtSparklesVisibilityIdentifier
-youtube.com###feed-pyv-container
-youtube.com###merch-shelf
-youtube.com###pla-shelf
-youtube.com###premium-yva
-youtube.com###promo-info
-youtube.com###promo-list
-youtube.com###search-pva
-youtube.com###shelf-pyv-container
-youtube.com###video-masthead
-youtube.com###watch-buy-urls
-youtube.com##.GoogleActiveViewElement
-youtube.com##.banner-promo-style-type-masthead-v2
-youtube.com##.companion-ad-container
-youtube.com##.list-view[style="margin: 7px 0pt;"]
-youtube.com##.promoted-sparkles-text-search-root-container
+m.youtube.com###YtKevlarVisibilityIdentifier
+m.youtube.com###YtSparklesVisibilityIdentifier
+m.youtube.com###feed-pyv-container
+m.youtube.com###merch-shelf
+m.youtube.com###pla-shelf
+m.youtube.com###premium-yva
+m.youtube.com###promo-info
+m.youtube.com###promo-list
+m.youtube.com###search-pva
+m.youtube.com###shelf-pyv-container
+m.youtube.com###video-masthead
+m.youtube.com###watch-buy-urls
+m.youtube.com##.GoogleActiveViewElement
+m.youtube.com##.banner-promo-style-type-masthead-v2
+m.youtube.com##.companion-ad-container
+m.youtube.com##.list-view[style="margin: 7px 0pt;"]
+m.youtube.com##.promoted-sparkles-text-search-root-container
 youtube.com##.promoted-videos
 youtube.com##.searchView.list-view
 youtube.com##.ytd-action-companion-ad-renderer
