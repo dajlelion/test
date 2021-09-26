@@ -1,5 +1,6 @@
-youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
+youtube.com##.masthead-ad-control,.ad-container,.ad-div,.pyv-afc-ads-container,.video-ads,.ytd-mealbar-promo-renderer,.sparkles-light-cta, .html5-video-player.ad-showing video
 youtube.com###promotion-shelf
+youtube.com###ad_creative_3, #footer-ads, #masthead-ad, #player-ads, #watch-channel-brand-div, #watch7-sidebar-ads
 *_ad_$media,domain=youtube.com,3p
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
@@ -69,6 +70,7 @@ m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
 youtube.com##ytd-compact-promoted-video-renderer
 youtube.com##ytd-companion-slot-renderer
 youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-rich-item-renderer
 youtube.com##ytd-promoted-sparkles-text-search-renderer
 youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-single-option-survey-renderer
