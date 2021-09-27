@@ -137,6 +137,7 @@ m.youtube.com##ytm-promoted-sparkles-text-search-renderer
 =adunit&
 ||doubleclick.net^
 ||flashtalking.com$domain=youtube.com
+||googleads.g.doubleclick.net
 ||googleadservices.com
 ||googlesyndication.com^
 ||s0.2mdn.net/ads
@@ -147,6 +148,9 @@ m.youtube.com##ytm-promoted-sparkles-text-search-renderer
 ||www.youtube.com/pagead
 ||www.youtube.com/ptracking
 doubleclick.net
+googleads.g.doubleclick.net
+g.doubleclick.net
+googleads
 googleadservices.com
 googlesyndication.com
 m.youtube.com##ytd-carousel-ad-renderer
