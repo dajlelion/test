@@ -44,7 +44,6 @@ m.youtube.com#@#.video-ads
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||youtube.com/get_video_info?*adunit$~third-party
 m.youtube.com###YtKevlarVisibilityIdentifier
-m.youtube.com###YtSparklesVisibilityIdentifier
 m.youtube.com###feed-pyv-container
 m.youtube.com###merch-shelf
 m.youtube.com###pla-shelf
@@ -59,7 +58,6 @@ m.youtube.com##.GoogleActiveViewElement
 m.youtube.com##.banner-promo-style-type-masthead-v2
 m.youtube.com##.companion-ad-container
 m.youtube.com##.list-view[style="margin: 7px 0pt;"]
-m.youtube.com##.promoted-sparkles-text-search-root-container
 youtube.com##.promoted-videos
 youtube.com##.searchView.list-view
 youtube.com##.ytd-action-companion-ad-renderer
