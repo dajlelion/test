@@ -10,28 +10,19 @@ hooktube.com#?#.col-lg-4:-abp-has(#video-list)
 youtube.com###masthead-ad
 www.youtube.com##ytd-metadata-row-renderer
 ##.ytp-cards-teaser
-
 ||youtube.com/share_ajax?action_get_share_box=1&video_id=$xmlhttprequest
 youtube.com##.action-panel-trigger[role=button][data-trigger-for=action-panel-share]
 youtube.com##.yt-uix-button[data-trigger-for=action-panel-share]
-
-
 ||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com|youtu.be|youtube-nocookie.com
 youtube.com,youtube-nocookie.com##.html5-endscreen-content
 youtube.com,youtube-nocookie.com##.html5-endscreen
-
 youtube.com##.watch-sidebar-body > #watch-related > .related-list-item
-
 www.youtube.com#?#ytd-compact-playlist-renderer:-abp-has(ytd-thumbnail-overlay-side-panel-renderer)
-
 /annotations_module.js$app=com.google.android.youtube|com.google.android.apps.youtube.music|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
 /endscreen.js$app=com.google.android.youtube|com.google.android.apps.youtube.music|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
 ||youtube.com/annotations_invideo?$app=com.google.android.youtube|com.google.android.apps.youtube.music|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
 ||ytimg.com/yts/swfbin/player-*/endscreen.swf$app=com.google.android.youtube|com.google.android.apps.youtube.music|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
 !#endif
-
-
-
 m.youtube.com###dismissible > .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
 m.youtube.com###action-companion-click-target > .ytd-action-companion-ad-renderer.style-scope
 m.youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope > .ytd-companion-slot-renderer.style-scope
