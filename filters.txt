@@ -1,14 +1,14 @@
-youtube.com###root
-youtube.com##.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
-youtube.com###block
-youtube.com##.style-scope.ytd-action-companion-ad-renderer
-m.youtube.com###dismissible > .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
-m.youtube.com###action-companion-click-target > .ytd-action-companion-ad-renderer.style-scope
-m.youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope > .ytd-companion-slot-renderer.style-scope
-m.youtube.com##.ytd-carousel-ad-renderer.style-scope > .yt-horizontal-list-renderer.style-scope
-m.youtube.com###title > .ytd-carousel-ad-renderer.style-scope
-m.youtube.com##.ytd-search-pyv-renderer.style-scope > .ytd-promoted-video-renderer.style-scope
-m.youtube.com###contents > .ytd-search-pyv-renderer.style-scope
+m.youtube.com###root
+m.youtube.com##.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
+m.youtube.com###block
+m.youtube.com##.style-scope.ytd-action-companion-ad-renderer
+m.youtube.com###dismissible &gt; .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
+m.youtube.com###action-companion-click-target &gt; .ytd-action-companion-ad-renderer.style-scope
+m.youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope &gt; .ytd-companion-slot-renderer.style-scope
+m.youtube.com##.ytd-carousel-ad-renderer.style-scope &gt; .yt-horizontal-list-renderer.style-scope
+m.youtube.com###title &gt; .ytd-carousel-ad-renderer.style-scope
+m.youtube.com##.ytd-search-pyv-renderer.style-scope &gt; .ytd-promoted-video-renderer.style-scope
+m.youtube.com###contents &gt; .ytd-search-pyv-renderer.style-scope
 m.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
 m.youtube.com##ytm-item-section-renderer.scwnr-content:nth-of-type(1)
 m.youtube.com##ytm-item-section-renderer.scwnr-content:nth-of-type(2)
