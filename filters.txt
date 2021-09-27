@@ -1,3 +1,40 @@
+m.youtube.com#@#a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
+m.youtube.com##a[onclick*='"ping_url":"http://www.google.com/aclk?']
+||googleadservices.com^
+||partner.googleadservices.com^
+@@://googleadservices.com^|
+@@://www.googleadservices.com^|
+@@||doubleclick.net^$app=com.google.android.music
+@@||googleadservices.com^$app=com.google.android.music
+@@||www.googleadservices.*/aclk?*&adurl=$~third-party
+@@||googleadservices.com^|$app=com.google.android.youtube
+||googleadservices.com/pagead/conversion_async.js$redirect=nooptext,domain=orcd.co
+||googleads.g.doubleclick.net/mads/static/mad/sdk/native/*.html$replace=/[\s\S]*/<!DOCTYPE html><html><head><script>var efs = false;<\/script><\/head><body><\/body><\/html>/,important
+||googleads.g.doubleclick.net^$app=world.cup|com.ludo.king
+@@||www.google-analytics.com^$app=com.google.android.apps.cultural
+@@||stats.g.doubleclick.net^$app=com.google.android.apps.cultural
+@@||static.doubleclick.net^$app=com.google.android.apps.cultural
+@@||googleads.g.doubleclick.net^$app=com.google.android.apps.cultural
+@@||pubads.g.doubleclick.net^$app=com.bloomberg.android.plus
+@@||pubads.g.doubleclick.net^$app=com.cbs.app
+@@||googleads.g.doubleclick.net^$app=com.thoptv.livetvstream
+@@||googleads.g.doubleclick.net/favicon.ico$app=com.ftt.boxingstar.gl.aos
+@@||googleads.g.doubleclick.net^|$app=com.ftt.boxingstar.gl.aos
+@@||googleads.g.doubleclick.net/mads/gma?*&_package_name=com.nextradiotv.bfmbusiness
+@@||googleads.g.doubleclick.net/mads/gma?request_id=*&_package_name=com.nextradiotv.bfmbusiness
+||youtube.com/api/stats/ads
+@@||googleadservices.com^|$app=com.google.android.youtube
+m.youtube.com##.ytp-cued-thumbnail-overlay > div[style*="/sddefault.jpg"]
+m.youtube.com##.ytp-ad-action-interstitial
+m.youtube.com##.companion-ad-container
+youtube.com##ytm-promoted-video-renderer
+||youtube.com/_get_ads?
+yahoo.com##.caas-da
+m.youtube.com##a[href^="/watch?v="][onclick^="return koya.onEvent(arguments[0]||window.event,'"]:not([role]):not([class]):not([id])
+m.youtube.com##a[href^="/watch?v="][onclick^="return koya.onEvent(arguments[0]||window.event,'"]:not([role]):not([class]):not([id]) + div
+||ads.youtube.com^
+
+
 m.youtube.com##.compact-media-item-image
 m.youtube.com##A.compact.media.item.image
 m.youtube.com##.no-transition.ytd-display-ad-renderer.style-scope > .yt-img-shadow.style-scope
