@@ -99,6 +99,7 @@ m.youtube.com##ytm-promoted-sparkles-text-search-renderer
 ##.video-ads
 ##.ytp-ad-progress-list
 =adunit&
+||googleusercontent.com
 ||doubleclick.net^
 ||flashtalking.com$domain=youtube.com
 ||googleadservices.com
