@@ -3,6 +3,8 @@ m.youtube.com##.promoted-sparkles-text-search-title
 m.youtube.com##.promoted-sparkles-text-search-format-container
 m.youtube.com##.subhead.promoted-sparkles-text-search-description
 m.youtube.com##.promoted-sparkles-text-search-primary-container
+m.youtube.com##.promoted-sparkles-text-search-root-container
+m.youtube.com###YtSparklesVisibilityIdentifier
 m.youtube.com##.masthead-ad-control
 m.youtube.com##.ad-container
 m.youtube.com##.ad-div
