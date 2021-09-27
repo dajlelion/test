@@ -1,12 +1,12 @@
-youtube.com##.no-transition.ytd-display-ad-renderer.style-scope > .yt-img-shadow.style-scope
-youtube.com###media-background
-youtube.com###media-container
-youtube.com###body-text
-youtube.com###title-link > .ytd-display-ad-renderer.style-scope
-youtube.com###secondary-text
-youtube.com###support
-youtube.com###dismissible > .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
-youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
+m.youtube.com##.no-transition.ytd-display-ad-renderer.style-scope > .yt-img-shadow.style-scope
+m.youtube.com###media-background
+m.youtube.com###media-container
+m.youtube.com###body-text
+m.youtube.com###title-link > .ytd-display-ad-renderer.style-scope
+m.youtube.com###secondary-text
+m.youtube.com###support
+m.youtube.com###dismissible > .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
+m.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
 m.youtube.com##.ytp-endscreen-content
 m.youtube.com##ytm-watch ytm-compact-video-renderer
 m.youtube.com##[section-identifier=related-items]
@@ -96,30 +96,30 @@ m.youtube.com##.GoogleActiveViewElement
 m.youtube.com##.banner-promo-style-type-masthead-v2
 m.youtube.com##.companion-ad-container
 m.youtube.com##.list-view[style="margin: 7px 0pt;"]
-youtube.com##.promoted-videos
-youtube.com##.searchView.list-view
-youtube.com##.ytd-action-companion-ad-renderer
-youtube.com##.ytd-carousel-ad-renderer
-youtube.com##.ytd-compact-promoted-video-renderer
-youtube.com##.ytd-companion-slot-renderer
-youtube.com##.ytd-merch-shelf-renderer
-youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
-youtube.com##.ytd-promoted-sparkles-text-search-renderer
-youtube.com##.ytd-promoted-video-renderer
-youtube.com##.ytd-search-pyv-renderer
-youtube.com##.ytd-video-masthead-ad-v3-renderer
-youtube.com##.ytp-ad-action-interstitial-background-container
-youtube.com##.ytp-ad-action-interstitial-slot
-youtube.com##.ytp-ad-button
-youtube.com##.ytp-ad-overlay-container
-youtube.com##.ytp-ad-player-overlay-flyout-cta
-youtube.com##.ytp-ad-progress
-youtube.com##.ytp-ad-progress-list
-youtube.com##YTM-PROMOTED-VIDEO-RENDERER
-youtube.com##[class^="ytd-display-ad-"]
-youtube.com##[layout*="display-ad-"]
-youtube.com##a[href^="http://www.youtube.com/cthru?"]
-youtube.com##a[href^="https://www.youtube.com/cthru?"]
+m.youtube.com##.promoted-videos
+m.youtube.com##.searchView.list-view
+m.youtube.com##.ytd-action-companion-ad-renderer
+m.youtube.com##.ytd-carousel-ad-renderer
+m.youtube.com##.ytd-compact-promoted-video-renderer
+m.youtube.com##.ytd-companion-slot-renderer
+m.youtube.com##.ytd-merch-shelf-renderer
+m.youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
+m.youtube.com##.ytd-promoted-sparkles-text-search-renderer
+m.youtube.com##.ytd-promoted-video-renderer
+m.youtube.com##.ytd-search-pyv-renderer
+m.youtube.com##.ytd-video-masthead-ad-v3-renderer
+m.youtube.com##.ytp-ad-action-interstitial-background-container
+m.youtube.com##.ytp-ad-action-interstitial-slot
+m.youtube.com##.ytp-ad-button
+m.youtube.com##.ytp-ad-overlay-container
+m.youtube.com##.ytp-ad-player-overlay-flyout-cta
+m.youtube.com##.ytp-ad-progress
+m.youtube.com##.ytp-ad-progress-list
+m.youtube.com##YTM-PROMOTED-VIDEO-RENDERER
+m.youtube.com##[class^="ytd-display-ad-"]
+m.youtube.com##[layout*="display-ad-"]
+m.youtube.com##a[href^="http://www.youtube.com/cthru?"]
+m.youtube.com##a[href^="https://www.youtube.com/cthru?"]
 m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
 m.youtube.com##ytd-compact-promoted-video-renderer
 m.youtube.com##ytd-companion-slot-renderer
