@@ -1,8 +1,7 @@
+googleunsercontent.com
 m.youtube.com###dismissible > .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
 m.youtube.com###action-companion-click-target > .ytd-action-companion-ad-renderer.style-scope
-m.youtube.com##ytd
 m.youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope > .ytd-companion-slot-renderer.style-scope
-m.youtube.com##.
 m.youtube.com##.ytd-carousel-ad-renderer.style-scope > .yt-horizontal-list-renderer.style-scope
 m.youtube.com###title > .ytd-carousel-ad-renderer.style-scope
 m.youtube.com##.ytd-search-pyv-renderer.style-scope > .ytd-promoted-video-renderer.style-scope
