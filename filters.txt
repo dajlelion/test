@@ -1,18 +1,27 @@
+youtube.com##.no-transition.ytd-display-ad-renderer.style-scope > .yt-img-shadow.style-scope
+youtube.com###media-background
+youtube.com###media-container
+youtube.com###body-text
+youtube.com###title-link > .ytd-display-ad-renderer.style-scope
+youtube.com###secondary-text
+youtube.com###support
+youtube.com###dismissible > .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
 m.youtube.com##.ytp-endscreen-content
 m.youtube.com##ytm-watch ytm-compact-video-renderer
 m.youtube.com##[section-identifier=related-items]
 ||youtube.com/related_ajax^
-youtube.com###masthead-ad
-www.youtube.com##ytd-metadata-row-renderer
+m.youtube.com###masthead-ad
+m.youtube.com##ytd-metadata-row-renderer
 ##.ytp-cards-teaser
 ||youtube.com/share_ajax?action_get_share_box=1&video_id=$xmlhttprequest
-youtube.com##.action-panel-trigger[role=button][data-trigger-for=action-panel-share]
-youtube.com##.yt-uix-button[data-trigger-for=action-panel-share]
+m.youtube.com##.action-panel-trigger[role=button][data-trigger-for=action-panel-share]
+m.youtube.com##.yt-uix-button[data-trigger-for=action-panel-share]
 ||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com|youtu.be|youtube-nocookie.com
-youtube.com,youtube-nocookie.com##.html5-endscreen-content
-youtube.com,youtube-nocookie.com##.html5-endscreen
-youtube.com##.watch-sidebar-body > #watch-related > .related-list-item
-www.youtube.com#?#ytd-compact-playlist-renderer:-abp-has(ytd-thumbnail-overlay-side-panel-renderer)
+m.youtube.com,youtube-nocookie.com##.html5-endscreen-content
+m.youtube.com,youtube-nocookie.com##.html5-endscreen
+m.youtube.com##.watch-sidebar-body > #watch-related > .related-list-item
+m.youtube.com#?#ytd-compact-playlist-renderer:-abp-has(ytd-thumbnail-overlay-side-panel-renderer)
 /annotations_module.js$app=com.google.android.youtube|com.google.android.apps.youtube.music|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
 /endscreen.js$app=com.google.android.youtube|com.google.android.apps.youtube.music|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
 ||youtube.com/annotations_invideo?$app=com.google.android.youtube|com.google.android.apps.youtube.music|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
