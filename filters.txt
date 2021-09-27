@@ -1,14 +1,13 @@
 m.youtube.com###dismissible > .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
 m.youtube.com###action-companion-click-target > .ytd-action-companion-ad-renderer.style-scope
-m.youtube.com##ytd-companion-slot-renderer
+m.youtube.com##ytd
 m.youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope > .ytd-companion-slot-renderer.style-scope
-m.youtube.com##.ytd-carousel-ad-renderer
+m.youtube.com##.
 m.youtube.com##.ytd-carousel-ad-renderer.style-scope > .yt-horizontal-list-renderer.style-scope
 m.youtube.com###title > .ytd-carousel-ad-renderer.style-scope
 m.youtube.com##.ytd-search-pyv-renderer.style-scope > .ytd-promoted-video-renderer.style-scope
 m.youtube.com###contents > .ytd-search-pyv-renderer.style-scope
 m.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1)
-m.youtube.com##ytm-item-section-renderer
 m.youtube.com##ytm-item-section-renderer.scwnr-content:nth-of-type(2)
 m.youtube.com##ytm-item-section-renderer.scwnr-content:nth-of-type(3)
 m.youtube.com##.promoted-sparkles-text-search-title
