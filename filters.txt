@@ -1,3 +1,7 @@
+youtube.com###root
+youtube.com##.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
+youtube.com###block
+youtube.com##.style-scope.ytd-action-companion-ad-renderer
 m.youtube.com###dismissible > .yt-simple-endpoint.ytd-display-ad-renderer.style-scope
 m.youtube.com###action-companion-click-target > .ytd-action-companion-ad-renderer.style-scope
 m.youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer.style-scope > .ytd-companion-slot-renderer.style-scope
