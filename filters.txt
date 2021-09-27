@@ -1,5 +1,5 @@
 m.youtube.com##.compact-media-item-image
-m.youtube.com##.compact-media-item
+m.youtube.com##A.compact.media.item.image
 m.youtube.com##.no-transition.ytd-display-ad-renderer.style-scope > .yt-img-shadow.style-scope
 m.youtube.com###media-background
 m.youtube.com###media-container
